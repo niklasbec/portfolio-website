@@ -2035,20 +2035,25 @@ input, select, textarea {
 			.skill-images {
 				display: flex;
 				justify-content: center;
+				flex-wrap: wrap;
 				margin: 5% 0;
 			}
 
 			.skill-images img{
 				margin-right: 5%;
+				margin-bottom: 8%;
 			}
 
 			.skill-images img:hover {
 				transform: scale(1.1);
 			}
 
+
+			@media (min-width: 800px) {
 			.skill-images img:last-child{
 				margin-right: unset;
 			}
+		}
 
 				#header header p:before {
 					content: '';
